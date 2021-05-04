@@ -1,0 +1,77 @@
+html
+{
+    background-image: url("Images/bg-pattern-top.svg"),url("Images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-position:left top, right bottom;
+    background-size: 600px 600px;
+    font-family: 'Spartan', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans";
+}
+.card
+{
+    
+    background-image: url(images/bg-pattern-card.svg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 320px 130px;
+    width: 320px;
+    height: 350px;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+.card img
+{
+    border: 4px white solid;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: 80px 110px 0px 110px;
+}
+.card p
+{
+    text-align: center;
+    line-height: 7px;
+}
+.vec
+{
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+.card span
+{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+.lndn
+{
+    color: hsl(0, 0%, 59%);
+    font-size: 13px;
+}
+.statistic
+{
+    margin-top: 30px;
+}
+.num
+{
+    display: flex;
+    justify-content: space-evenly;
+    color: hsl(229, 23%, 23%);
+}
+.num p
+{
+    margin: 8px 0px;
+    font-size: 15px;
+}
+.follow
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+    color: hsl(0, 0%, 59%);
+}
+.follow p
+{
+    margin: 8px 0px;
+}
